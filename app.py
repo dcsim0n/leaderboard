@@ -24,7 +24,7 @@ last_updated: Optional[datetime] = None
 
 # Configuration
 SEGMENT_ID = "12368762"
-STRAVA_ACCESS_TOKEN = os.getenv("STRAVA_ACCESS_TOKEN", "73725f7af2f6468c0bea57e8464ea273a100b74c")
+STRAVA_ACCESS_TOKEN = os.getenv("STRAVA_ACCESS_TOKEN")
 CERT_PATH = os.getenv("CERT_PATH")
 
 
